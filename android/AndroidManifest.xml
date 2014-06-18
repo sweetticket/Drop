@@ -9,10 +9,9 @@
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
-        android:label="@string/app_name"
-        android:theme="@style/GdxTheme" >
+        android:label="@string/app_name" >
         <activity
-            android:name="com.mygdx.drop.android.AndroidLauncher"
+            android:name=".MainActivity"
             android:label="@string/app_name" 
             android:screenOrientation="landscape"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize">
